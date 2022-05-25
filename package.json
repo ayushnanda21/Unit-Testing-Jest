@@ -1,0 +1,24 @@
+{
+  "name": "unit-testing-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushnanda21/Unit-Testing-Jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushnanda21/Unit-Testing-Jest/issues"
+  },
+  "homepage": "https://github.com/ayushnanda21/Unit-Testing-Jest#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
