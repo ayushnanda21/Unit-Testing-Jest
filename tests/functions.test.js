@@ -1,5 +1,27 @@
 const {sum, deleteUserById, findUserById} =  require("../utils/helper")
 
+let userdata = []
+
+//database mocking , populating, depopulating
+beforeEach(()=>{
+    console.log("Running before tests")
+})
+
+afterEach(()=>{
+    console.log("Test conducted")
+})
+
+beforeAll(()=>{
+    console.log("Running before everyone, lets start");
+
+    userdata = ["Clement", "king", "ziongh"]
+})
+
+afterAll(()=>{
+    console.log("Runs at last of file, ended!")
+    userdata=[]
+})
+
 describe("Testing functions", ()=>{
 
     let usernew =[
